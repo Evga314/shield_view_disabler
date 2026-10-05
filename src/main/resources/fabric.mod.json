@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "shield_view_disabler",
+  "version": "${version}",
+  "name": "Shield view disabler",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/shield_view_disabler/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.Evga314.shield_view_disabler.client.Shield_view_disablerDataGenerator"
+    ],
+    "client": [
+      "com.Evga314.shield_view_disabler.client.Shield_view_disablerClient"
+    ],
+    "main": [
+      "com.Evga314.shield_view_disabler.Shield_view_disabler"
+    ]
+  },
+  "mixins": [
+    "shield_view_disabler.mixins.json",
+    {
+      "config": "shield_view_disabler.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

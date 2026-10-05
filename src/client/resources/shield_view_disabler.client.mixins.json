@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.Evga314.shield_view_disabler.mixin.client",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ShieldHideMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
