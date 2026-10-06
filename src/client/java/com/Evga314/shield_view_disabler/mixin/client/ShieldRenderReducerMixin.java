@@ -31,11 +31,11 @@ public class ShieldRenderReducerMixin {
             HumanoidArm arm = isMainHand ? avatarRenderState.mainArm : avatarRenderState.mainArm.getOpposite();
 
             if (isRaised && arm == HumanoidArm.RIGHT) {
-                poseStack.translate(-0.175, -0.2, -0.0825);
+                poseStack.translate(-0.175, -0.28, -0.0825);
 
             }
             if (isRaised && arm == HumanoidArm.LEFT) {
-                poseStack.translate(-0.1, -0.2, -0.0825);
+                poseStack.translate(-0.1, -0.28, -0.0825);
             }
             poseStack.scale(0.88f, 0.88f, 0.88f);
         }
