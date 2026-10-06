@@ -4,7 +4,8 @@
   "package": "com.Evga314.shield_view_disabler.mixin.client",
   "compatibilityLevel": "JAVA_25",
   "client": [
-    "ShieldHideMixin"
+    "ShieldHideMixin",
+    "ShieldRenderReducerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
