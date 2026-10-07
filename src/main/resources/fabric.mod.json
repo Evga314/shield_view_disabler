@@ -8,8 +8,8 @@
   "contact": {
 
     "homepage": "https://t.me/Evga314mods",
-    "sources": "https://github.com/Evga314/shield-view-disabler",
-    "issues": "https://github.com/Evga314/shield-view-disabler/issues"
+    "sources": "https://github.com/Evga314/shield_view_disabler",
+    "issues": "https://github.com/Evga314/shield_view_disabler/issues"
   },
   "license": "MIT",
   "icon": "assets/shield_view_disabler/icon.png",
